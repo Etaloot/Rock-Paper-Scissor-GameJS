@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-image: url('20200629_205501.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-top: 7rem;
+    
+    
+}
+
+body h1{
+    padding: 1.2rem;
+    border-radius: 10px;
+    color: rgb(26, 24, 24);
+    background-color: transparent;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.178);
+    font-family: 'Cinzel', serif;
+}
+span{
+    color: red;
+}
+
+button{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.178);
+    padding: 5px 10px;
+    margin: 1rem 1rem;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+    
+
+}
+
+button:hover{
+    background-color: rgb(214, 14, 14);
+    border-radius: 15px;
+    transition: 300ms ease-in;
+}
